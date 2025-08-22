@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/components/theme/theme-provider";
+import { ReactNode } from "react";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,17 +14,18 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
 export const metadata: Metadata = {
   title: "Vivian Bruchon | Web Developer Portfolio",
   description:
     "Portfolio of Vivian Bruchon, a web developer specialized in Next.js, React, Tailwind CSS, and Node.js. Explore my projects and my skills",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: {
+  children: ReactNode;
+}) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body
@@ -31,7 +33,7 @@ export default function RootLayout({
           geistSans.variable,
           geistMono.variable,
           "antialiased",
-          "h-full bg-background"
+          "min-h-full bg-background"
         )}
       >
         <ThemeProvider
