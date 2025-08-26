@@ -1,3 +1,14 @@
 {
-  "hello": "Bonjour"
+  "hello": "Bonjour ! Je suis -",
+  "name": "Vivian Bruchon",
+  "job": "DÉVELOPPEUR WEB Fullstack",
+  "paragraph": {
+    "iAm": "Passionné par le code et les expériences web, j’aime transformer une idée en projet concret.",
+    "explore": "Découvrez mes projets web en parcourant mon portfolio."
+  },
+  "cta": {
+    "contact": "Contactez-moi",
+    "projects": "Voir mes projets"
+  },
+  "scroll": "Scroller pour explorer"
 }

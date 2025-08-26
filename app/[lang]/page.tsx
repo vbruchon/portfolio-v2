@@ -1,4 +1,7 @@
+import { Hero } from "@/components/section/hero";
 import { getDictionary } from "@/locales/dictionnaries";
+import Image from "next/image";
+import Link from "next/link";
 
 export default async function Home({
   params,
@@ -9,8 +12,8 @@ export default async function Home({
   const dict = await getDictionary(lang, "hero");
 
   return (
-    <div className="flex flex-col gap-[32px]  items-center  sm:items-start">
-      Portfolio v2
+    <div className="">
+      <Hero content={dict} />
     </div>
   );
 }

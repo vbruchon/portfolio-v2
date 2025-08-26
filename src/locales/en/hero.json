@@ -1,3 +1,14 @@
 {
-  "hello": "Hello"
+  "hello": "Hey there! I'm -",
+  "name": "Vivian Bruchon",
+  "job": "WEB DEVELOPER Fullstack",
+  "paragraph": {
+    "iAm": "Passionate about coding and web experiences, I enjoy turning an idea into a tangible project.",
+    "explore": "Explore my web projects by navigating through of my portfolio."
+  },
+  "cta": {
+    "contact": "Contact me",
+    "projects": "See my projects"
+  },
+  "scroll": "Scroll to explore"
 }

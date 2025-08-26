@@ -43,6 +43,14 @@ export default async function RootLayout({
           disableTransitionOnChange
         >
           {children}
+          <div className="fixed bottom-10 right-4 z-50 p-2 rounded-full bg-black text-white text-xs font-mono">
+            <span className="block sm:hidden">xs</span>
+            <span className="hidden sm:block md:hidden">sm</span>
+            <span className="hidden md:block lg:hidden">md</span>
+            <span className="hidden lg:block xl:hidden">lg</span>
+            <span className="hidden xl:block 2xl:hidden">xl</span>
+            <span className="hidden 2xl:block">2xl</span>
+          </div>
         </ThemeProvider>
       </body>
     </html>
