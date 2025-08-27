@@ -1,7 +1,6 @@
 import { Hero } from "@/components/section/hero";
+import { Skills } from "@/components/section/skills";
 import { getDictionary } from "@/locales/dictionnaries";
-import Image from "next/image";
-import Link from "next/link";
 
 export default async function Home({
   params,
@@ -9,11 +8,13 @@ export default async function Home({
   params: Promise<{ lang: string }>;
 }) {
   const { lang } = await params;
-  const dict = await getDictionary(lang, "hero");
+  const heroDict = await getDictionary(lang, "hero");
+  const skillsDict = await getDictionary(lang, "skills");
 
   return (
-    <div className="">
-      <Hero content={dict} />
+    <div className="px-6">
+      <Hero content={heroDict} />
+      <Skills content={skillsDict} />
     </div>
   );
 }
