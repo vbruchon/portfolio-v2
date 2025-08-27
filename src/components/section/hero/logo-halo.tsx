@@ -6,6 +6,7 @@ import { OtherLogo } from "@/components/logo/other-logo";
 import { ReactLogo } from "@/components/logo/react-logo";
 import { motion } from "framer-motion";
 import React from "react";
+import { Bubble } from "./bubble";
 
 const containerVariants = {
   hidden: {},
@@ -14,11 +15,6 @@ const containerVariants = {
       staggerChildren: 0.15,
     },
   },
-};
-
-const itemVariants = {
-  hidden: { opacity: 0, scale: 0.8 },
-  show: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
 };
 
 export const LogoHalo = () => {
@@ -36,18 +32,21 @@ export const LogoHalo = () => {
       initial="hidden"
       animate="show"
     >
-      <motion.div variants={itemVariants}>
+      <Bubble className="top-[-0.5rem] left-[75%] md:top-[0rem] md:left-[80%] xl:top-[0.75rem] xl:left-[80%] 2xl:top-[0.5rem] 2xl:left-[77%]">
         <ReactLogo className="w-full h-full p-1 text-foreground dark:text-muted-foreground bg-background " />
-      </motion.div>
-      <motion.div variants={itemVariants}>
+      </Bubble>
+
+      <Bubble className="top-[4rem] left-[98%] md:size-13 md:top-[5rem] md:left-[100%] xl:size-14 xl:top-[7rem]">
         <NextLogo className="w-full h-full p-1 text-background bg-muted-foreground scale-115" />
-      </motion.div>
-      <motion.div variants={itemVariants}>
+      </Bubble>
+
+      <Bubble className="top-[9.5rem] left-[97%] md:top-[11rem] xl:size-14 xl:top-[14.5rem] 2xl:top-[15rem]">
         <NodeLogo className="w-full h-full p-1.5 text-foreground dark:text-muted-foreground bg-background scale-110" />
-      </motion.div>
-      <motion.div variants={itemVariants}>
+      </Bubble>
+
+      <Bubble className="top-[13.5rem] left-[75%] md:top-[15.5rem] xl:size-14 xl:top-[20rem] 2xl:top-[21rem]">
         <OtherLogo className="w-full h-full p-1 text-foreground dark:text-muted-foreground bg-background scale-110" />
-      </motion.div>
+      </Bubble>
     </motion.div>
   );
 };
