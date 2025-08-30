@@ -1,0 +1,30 @@
+{
+  "title": "My Last Projects",
+  "cta": "Découvrir tous les projets",
+  "projects": [
+    {
+      "title": "Track Dev Time",
+      "description": "Project-focused development time tracker: install it in a repo and it automatically records your coding sessions and breaks. Your data stays local and transparent, and is showcased in a modern dashboard to track your productivity and goals.",
+      "stacks": ["Next.js", "React", "Prisma", "Postgre", "Node.js"],
+      "imageURL": "/track-dev-time.png",
+      "slug": "track-dev-time",
+      "portfolio": true
+    },
+    {
+      "title": "Auto Depannage Romanais",
+      "description": "Complete redesign of the company’s showcase website to better reflect its brand identity and graphic charter. Goal: modernize the design, improve user experience, and present services clearly and attractively.",
+      "stacks": ["Next.js", "React"],
+      "imageURL": "/adr.png",
+      "slug": "adr",
+      "portfolio": true
+    },
+    {
+      "title": "Cedille Formation",
+      "description": "Transformation of a landing page into a comprehensive website for Cédille Formation, integrating both showcase and training catalog. Backend server enhancements and dashboard customization to meet client expectations.",
+      "stacks": ["Php", "WordPress", "MySQL"],
+      "imageURL": "/cedille_formation.png",
+      "slug": "cedille-formation",
+      "portfolio": true
+    }
+  ]
+}

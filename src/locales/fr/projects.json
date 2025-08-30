@@ -1,0 +1,30 @@
+{
+  "title": "Mes derniers projets",
+  "cta": "Explore all projects",
+  "projects": [
+    {
+      "title": "Track Dev Time",
+      "description": "Outil de suivi du temps de développement centré projet : installez-le dans un repo et il enregistre automatiquement vos sessions et pauses. Les données restent locales, transparentes, et sont mises en valeur dans un dashboard moderne pour suivre votre productivité et vos objectifs.",
+      "stacks": ["Next.js", "React", "Prisma", "Postgre", "Node.js"],
+      "imageURL": "/track-dev-time.png",
+      "slug": "track-dev-time",
+      "portfolio": true
+    },
+    {
+      "title": "Auto Dépannage Romanais",
+      "description": "Refonte complète du site vitrine de l’entreprise pour mieux refléter son identité de marque et sa charte graphique. Objectif : moderniser le design, améliorer l’expérience utilisateur et présenter les services de manière claire et attractive.",
+      "stacks": ["Next.js", "React"],
+      "imageURL": "/adr.png",
+      "slug": "adr",
+      "portfolio": true
+    },
+    {
+      "title": "Cédille Formation",
+      "description": "Transformation d’une landing page en un site complet pour Cédille Formation, intégrant à la fois la vitrine et le catalogue de formations. Améliorations côté serveur et personnalisation du tableau de bord pour répondre aux attentes du client.",
+      "stacks": ["Php", "WordPress", "MySQL"],
+      "imageURL": "/cedille_formation.png",
+      "slug": "cedille-formation",
+      "portfolio": true
+    }
+  ]
+}
