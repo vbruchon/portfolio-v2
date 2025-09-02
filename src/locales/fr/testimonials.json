@@ -1,0 +1,41 @@
+{
+  "title": "Témoignages",
+  "testimonials": [
+    {
+      "img": "https://lemoulindigital.fr/wp-content/uploads/2022/07/IMG_2853-scaled.jpg",
+      "link": "https://www.linkedin.com/in/xavier-masclaux/",
+      "name": "Xavier Masclaux",
+      "role": "Chef de projet",
+      "enterprise": "Le Moulin Digital",
+      "enterpriseLink": "https://lemoulindigital.fr",
+      "content": "Vivian a su comprendre nos besoins et développer des solutions adaptées. Autonome et réactif, il a résolu les problèmes en cherchant les informations nécessaires ou en se référant à ses pairs. Sa capacité à s'adapter aux évolutions du projet et à former les utilisateurs a été appréciée. Globalement, il a dépassé nos attentes et s'est pleinement intégré à notre équipe."
+    },
+    {
+      "img": "https://lemoulindigital.fr/wp-content/uploads/2022/07/IMG_2879-scaled.jpg",
+      "link": "https://www.linkedin.com/in/jpfalavel/",
+      "name": "Jean-Philippe Falavel",
+      "role": "Représentant Mardinnov'",
+      "enterpriseLink": "https://lemoulindigital.fr",
+      "enterprise": "Le Moulin Digital",
+      "content": "Vivian a travaillé à la refonte du site www.mardinnov.com en 2022 sur Wordpress. À partir de la nouvelle charte graphique créée, il a entièrement créé le nouveau site internet. Très à l'écoute des besoins et force de propositions, il a su être très réactif et a respecté le calendrier du cahier des charges. Je le recommande pour son professionnalisme!"
+    },
+    {
+      "img": "https://lemoulindigital.fr/wp-content/uploads/2022/07/IMG_2875-scaled.jpg",
+      "link": "https://www.linkedin.com/in/st%C3%A9phanietardieu/",
+      "name": "Stéphanie Escandell",
+      "role": "Gestionnaire Cédille formation",
+      "enterprise": "Cédille Formation",
+      "enterpriseLink": "https://cedille-formation.fr/",
+      "content": "Suite à la création du site web de Cédille formation, je suis satisfait de notre collaboration avec Vivian. Son écoute attentive et sa pédagogie ont grandement facilité la compréhension de chaque étape du processus, surtout pour une novice comme moi. Vivian a su répondre efficacement à nos attentes et adapter le site à nos exigences. Son professionnalisme et son expertise ont contribué à la mise en place de ce projet. Je recommande vivement les services de Vivian."
+    },
+    {
+      "img": "/les-jardins-de-la-drome.png",
+      "link": null,
+      "name": "David Escandell",
+      "role": null,
+      "enterpriseLink": "https://www.les-jardins-de-la-drome.fr",
+      "enterprise": "Les jardins de la Drôme",
+      "content": "Vivian a su saisir le projet, comprendre nos attentes et exigences. Nous sommes très satisfaits du travail accompli, du référencement du site. Il a contribué à la réussite de ce projet. Je recommande vivement ses services pour toute entreprise cherchant à développer une présence en ligne de qualité. Un grand merci à Vivian."
+    }
+  ]
+}

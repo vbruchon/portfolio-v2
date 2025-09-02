@@ -1,6 +1,7 @@
 import { Hero } from "@/components/section/hero";
 import { ProjectContent, Projects } from "@/components/section/projects";
 import { Skills } from "@/components/section/skills";
+import { TestimonialsSection } from "@/components/section/testimonials-section";
 import { getDictionary } from "@/locales/dictionnaries";
 
 export default async function Home({
@@ -12,6 +13,7 @@ export default async function Home({
   const heroDict = await getDictionary(lang, "hero");
   const skillsDict = await getDictionary(lang, "skills");
   const projectsDict = await getDictionary(lang, "projects");
+  const testimonialsDict = await getDictionary(lang, "testimonials");
 
   const portfolioProjects = projectsDict.projects.filter(
     (project: ProjectContent) => project.portfolio === true
@@ -27,6 +29,7 @@ export default async function Home({
       <Hero content={heroDict} />
       <Skills content={skillsDict} />
       <Projects content={portfolioContent} />
+      <TestimonialsSection data={testimonialsDict} />
     </div>
   );
 }
