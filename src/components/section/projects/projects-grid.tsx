@@ -39,7 +39,7 @@ export const ProjectsGrid = ({ projects }: { projects: ProjectContent[] }) => {
             className={className}
             variants={getCardVariants(index)}
           >
-            <ProjectCard project={project} />
+            <ProjectCard project={project} className="md:h-full" />
           </motion.div>
         );
       })}

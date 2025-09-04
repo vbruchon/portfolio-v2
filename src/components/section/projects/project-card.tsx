@@ -41,7 +41,7 @@ export const ProjectCard = ({ className = "", project }: ProjectCardProps) => {
       initial="initial"
       animate={controls}
       whileHover="hover"
-      className={`relative overflow-hidden cursor-pointer p-0 ${className} group h-64 md:h-full hover:border-2 hover:border-primary bg-card text-card-foreground flex flex-col gap-6 rounded-xl border`}
+      className={`relative overflow-hidden cursor-pointer p-0 ${className} group h-64 hover:border-2 hover:border-primary bg-card text-card-foreground flex flex-col gap-6 rounded-xl border`}
     >
       <Link href={`/projects/${project.slug}`} className="w-full h-full block">
         {/* Image */}

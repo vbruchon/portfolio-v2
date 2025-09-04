@@ -1,6 +1,6 @@
 {
-  "title": "My Last Projects",
-  "cta": "Découvrir tous les projets",
+  "title": "My Last projects",
+  "cta": "Explore all projects",
   "projects": [
     {
       "title": "Track Dev Time",
@@ -19,12 +19,44 @@
       "portfolio": true
     },
     {
+      "title": "Les jardins de la Drôme",
+      "description": "Creation of the new Les Jardins de la Drôme website to meet their latest requirements.",
+      "stacks": ["Php", "WordPress", "MySQL"],
+      "imageURL": "/les_jardins_de_la_drome.png",
+      "slug": "les-jardins-de-la-drome",
+      "portfolio": false
+    },
+    {
       "title": "Cedille Formation",
       "description": "Transformation of a landing page into a comprehensive website for Cédille Formation, integrating both showcase and training catalog. Backend server enhancements and dashboard customization to meet client expectations.",
       "stacks": ["Php", "WordPress", "MySQL"],
       "imageURL": "/cedille_formation.png",
       "slug": "cedille-formation",
       "portfolio": true
+    },
+    {
+      "title": "Archimède",
+      "description": "Creation of a web application designed to simplify event entry. Features include user rights management, event list display, and ICS conversion for seamless integration into calendar views.",
+      "stacks": ["Laravel", "MySQL"],
+      "imageURL": "/archimede.png",
+      "slug": "archimede",
+      "portfolio": false
+    },
+    {
+      "title": "Mardinnov'",
+      "description": "Complete redesign of the Mardinnov website for its 10th anniversary. Content was reorganized to improve clarity and usability, ensuring easier management for the site administrator while modernizing its overall look.",
+      "stacks": ["Php", "WordPress", "MySQL"],
+      "imageURL": "/mardinnov.jpg",
+      "slug": "mardinnov",
+      "portfolio": false
+    },
+    {
+      "title": "Oui'Dire Éditions",
+      "description": "Development of custom plugins to optimize the website’s performance and tailor its features to the specific needs of the manager, creating a more efficient and user-friendly solution.",
+      "stacks": ["Php", "WordPress", "MySQL"],
+      "imageURL": "/oui-dire.jpg",
+      "slug": "oui-dire-editions",
+      "portfolio": false
     }
   ]
 }

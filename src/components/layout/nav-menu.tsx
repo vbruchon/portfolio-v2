@@ -23,7 +23,8 @@ export const NavMenu = ({ items = [] }: NavMenuProps) => {
       )?.[0] || "/";
 
     const cleanPath = pathname.replace(/^\/(fr|en)/, "") || "/";
-    const isActive = cleanPath.startsWith(href);
+    const isActive =
+      href === "/" ? cleanPath === "/" : cleanPath.startsWith(href);
 
     return { label, href, isActive };
   });
