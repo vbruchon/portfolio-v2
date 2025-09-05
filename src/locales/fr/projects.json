@@ -6,7 +6,7 @@
       "title": "Track Dev Time",
       "description": "Outil de suivi du temps de développement : s’installe dans un repo et enregistre automatiquement vos sessions de codage et vos pauses. Vos données restent locales et transparentes, et sont affichées dans un tableau de bord moderne pour suivre votre productivité et vos objectifs.",
       "stacks": ["Next.js", "React", "Prisma", "Postgre", "Node.js"],
-      "imageURL": "/track-dev-time.png",
+      "imageURL": "/projects/track-dev-time.png",
       "slug": "track-dev-time",
       "portfolio": true,
       "content": {
@@ -21,7 +21,7 @@
       "title": "Auto Dépannage Romanais",
       "description": "Refonte complète du site vitrine pour mieux refléter l’identité visuelle de l’entreprise et moderniser son design, tout en améliorant l’expérience utilisateur et la présentation des services.",
       "stacks": ["Next.js", "React"],
-      "imageURL": "/adr2.png",
+      "imageURL": "/projects/adr2.png",
       "slug": "adr",
       "portfolio": true,
       "content": {
@@ -37,7 +37,7 @@
       "title": "Les Jardins de la Drôme",
       "description": "Création du nouveau site web pour Les Jardins de la Drôme afin de répondre à leurs besoins actuels et refléter leurs activités.",
       "stacks": ["Php", "WordPress", "MySQL"],
-      "imageURL": "/les_jardins_de_la_drome.png",
+      "imageURL": "/projects/les_jardins_de_la_drome.png",
       "slug": "les-jardins-de-la-drome",
       "portfolio": false,
       "content": {
@@ -51,7 +51,7 @@
       "title": "Cédille Formation",
       "description": "Transformation d’une landing page en un site complet intégrant à la fois la vitrine et le catalogue de formations. Amélioration du backend et personnalisation du tableau de bord pour répondre aux besoins du client.",
       "stacks": ["Php", "WordPress", "MySQL"],
-      "imageURL": "/cedille_formation.png",
+      "imageURL": "/projects/cedille_formation.png",
       "slug": "cedille-formation",
       "portfolio": true,
       "content": {
@@ -65,7 +65,7 @@
       "title": "Archimède",
       "description": "Création d’une application web pour centraliser et simplifier la gestion des événements des partenaires du groupe Archimède, avec calendrier, liste et filtrage des événements.",
       "stacks": ["Laravel", "MySQL"],
-      "imageURL": "/archimede.png",
+      "imageURL": "/projects/archimede.png",
       "slug": "archimede",
       "portfolio": false,
       "content": {
@@ -79,7 +79,7 @@
       "title": "Mardinnov'",
       "description": "Refonte complète du site Mardinnov pour le 10ème anniversaire de l’événement. Réorganisation du contenu pour une meilleure clarté et une gestion simplifiée, tout en modernisant l’apparence globale.",
       "stacks": ["Php", "WordPress", "MySQL"],
-      "imageURL": "/mardinnov.jpg",
+      "imageURL": "/projects/mardinnov.jpg",
       "slug": "mardinnov",
       "portfolio": false,
       "content": {
@@ -93,7 +93,7 @@
       "title": "Oui'Dire Éditions",
       "description": "Développement de plugins personnalisés pour optimiser les performances du site et adapter ses fonctionnalités aux besoins spécifiques du gestionnaire, pour une solution plus efficace et conviviale.",
       "stacks": ["Php", "WordPress", "MySQL"],
-      "imageURL": "/oui-dire.jpg",
+      "imageURL": "/projects/oui-dire.png",
       "slug": "oui-dire-editions",
       "portfolio": false,
       "content": {
@@ -103,5 +103,8 @@
         "websiteURL": "https://oui-dire-editions.fr/"
       }
     }
-  ]
+  ],
+  "ctaCard": {
+    "title": "Créons un nouveau projet ensemble"
+  }
 }

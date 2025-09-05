@@ -6,7 +6,7 @@
       "title": "Track Dev Time",
       "description": "Project-focused development time tracker: install it in a repo and it automatically records your coding sessions and breaks. Your data stays local and transparent, and is showcased in a modern dashboard to track your productivity and goals.",
       "stacks": ["Next.js", "React", "Prisma", "Postgre", "Node.js"],
-      "imageURL": "/track-dev-time.png",
+      "imageURL": "/projects/track-dev-time.png",
       "slug": "track-dev-time",
       "portfolio": true,
       "content": {
@@ -21,7 +21,7 @@
       "title": "Auto Depannage Romanais",
       "description": "Complete redesign of the company’s showcase website to better reflect its brand identity and graphic charter. Goal: modernize the design, improve user experience, and present services clearly and attractively.",
       "stacks": ["Next.js", "React"],
-      "imageURL": "/adr2.png",
+      "imageURL": "/projects/adr2.png",
       "slug": "adr",
       "portfolio": true,
       "content": {
@@ -36,7 +36,7 @@
       "title": "Les jardins de la Drôme",
       "description": "Creation of the new Les Jardins de la Drôme website to meet their latest requirements.",
       "stacks": ["Php", "WordPress", "MySQL"],
-      "imageURL": "/les_jardins_de_la_drome.png",
+      "imageURL": "/projects/les_jardins_de_la_drome.png",
       "slug": "les-jardins-de-la-drome",
       "portfolio": false,
       "content": {
@@ -50,7 +50,7 @@
       "title": "Cedille Formation",
       "description": "Transformation of a landing page into a comprehensive website for Cédille Formation, integrating both showcase and training catalog. Backend server enhancements and dashboard customization to meet client expectations.",
       "stacks": ["Php", "WordPress", "MySQL"],
-      "imageURL": "/cedille_formation.png",
+      "imageURL": "/projects/cedille_formation.png",
       "slug": "cedille-formation",
       "portfolio": true,
       "content": {
@@ -64,7 +64,7 @@
       "title": "Archimède",
       "description": "Creation of a web application designed to simplify event entry. Features include user rights management, event list display, and ICS conversion for seamless integration into calendar views.",
       "stacks": ["Laravel", "MySQL"],
-      "imageURL": "/archimede.png",
+      "imageURL": "/projects/archimede.png",
       "slug": "archimede",
       "portfolio": false,
       "content": {
@@ -78,7 +78,7 @@
       "title": "Mardinnov'",
       "description": "Complete redesign of the Mardinnov website for its 10th anniversary. Content was reorganized to improve clarity and usability, ensuring easier management for the site administrator while modernizing its overall look.",
       "stacks": ["Php", "WordPress", "MySQL"],
-      "imageURL": "/mardinnov.jpg",
+      "imageURL": "/projects/mardinnov.jpg",
       "slug": "mardinnov",
       "portfolio": false,
       "content": {
@@ -92,7 +92,7 @@
       "title": "Oui'Dire Éditions",
       "description": "Development of custom plugins to optimize the website’s performance and tailor its features to the specific needs of the manager, creating a more efficient and user-friendly solution.",
       "stacks": ["Php", "WordPress", "MySQL"],
-      "imageURL": "/oui-dire.jpg",
+      "imageURL": "/projects/oui-dire.png",
       "slug": "oui-dire-editions",
       "portfolio": false,
       "content": {
@@ -102,5 +102,8 @@
         "websiteURL": "https://oui-dire-editions.fr/"
       }
     }
-  ]
+  ],
+  "ctaCard": {
+    "title": "Create a new project together"
+  }
 }
