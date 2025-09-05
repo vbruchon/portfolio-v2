@@ -1,5 +1,4 @@
-import { ProjectContent } from "@/components/section/projects";
-import { ProjectCard } from "@/components/section/projects/project-card";
+import { ProjectsGrid } from "@/components/layout/projects-grid";
 import { getDictionary } from "@/locales/dictionnaries";
 
 export default async function ProjectsPage({
@@ -19,12 +18,10 @@ export default async function ProjectsPage({
           .filter((_: undefined, i: number) => i !== 1)
           .join(" ")}
       </h1>
-
-      <div className="grid grid-cols-1 md:grid-cols-2  gap-8">
-        {projectsDict.projects.map((project: ProjectContent) => (
-          <ProjectCard key={project.slug} project={project} className="h-72" />
-        ))}
-      </div>
+      <ProjectsGrid
+        projects={projectsDict.projects}
+        cta={projectsDict.ctaCard}
+      />
     </div>
   );
 }
