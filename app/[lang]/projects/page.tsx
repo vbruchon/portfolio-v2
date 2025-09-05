@@ -11,7 +11,7 @@ export default async function ProjectsPage({
   const projectsDict = await getDictionary(lang, "projects");
 
   return (
-    <div className="px-4 sm:px-6 lg:px-8 py-8">
+    <div className="px-4 sm:px-6 lg:px-8">
       <h1 className="text-3xl font-bold mb-8">
         {projectsDict.title
           .split(" ")
