@@ -6,18 +6,20 @@ import { TestimonialHeader } from "./testimonial-header";
 type TestimonialCardProps = {
   testimonial: Testimonial;
   isActive: boolean;
+  className?: string;
 };
 
 export const TestimonialCard = ({
   testimonial,
   isActive,
+  className = "md:scale-105",
 }: TestimonialCardProps) => {
   return (
     <Card
       className={cn(
         "sm:h-full flex flex-col transition-all duration-500 ease-in-out",
         isActive
-          ? "md:opacity-100 md:scale-105 md:shadow-lg"
+          ? `md:opacity-100 ${className} md:shadow-lg`
           : "md:opacity-40 md:scale-95"
       )}
     >

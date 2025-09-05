@@ -1,62 +1,107 @@
 {
   "title": "Mes derniers projets",
-  "cta": "Découvrir tous les projets",
+  "cta": "Explorer tous les projets",
   "projects": [
     {
       "title": "Track Dev Time",
-      "description": "Un outil de suivi du temps de développement centré sur le projet : installez-le dans un dépôt et il enregistre automatiquement vos sessions de code et vos pauses. Vos données restent locales et transparentes, et sont mises en valeur dans un tableau de bord moderne pour suivre votre productivité et vos objectifs.",
+      "description": "Outil de suivi du temps de développement : s’installe dans un repo et enregistre automatiquement vos sessions de codage et vos pauses. Vos données restent locales et transparentes, et sont affichées dans un tableau de bord moderne pour suivre votre productivité et vos objectifs.",
       "stacks": ["Next.js", "React", "Prisma", "Postgre", "Node.js"],
       "imageURL": "/track-dev-time.png",
       "slug": "track-dev-time",
-      "portfolio": true
+      "portfolio": true,
+      "content": {
+        "context": "Avant Track Dev Time, suivre ses sessions de développement était fastidieux : il fallait se rappeler de démarrer, mettre en pause ou arrêter le chronomètre, et les données étaient souvent incomplètes.",
+        "objective": "J’ai créé Track Dev Time, un outil qui suit automatiquement les sessions et les pauses directement depuis le terminal, stocke les données localement et les affiche dans un tableau de bord moderne. Les développeurs peuvent visualiser leur productivité, suivre leurs objectifs et analyser les statistiques facilement, tout en gardant le contrôle total sur leurs données.",
+        "github": "https://github.com/vbruchon/track-dev-time-saas",
+        "github2": "https://github.com/vbruchon/track-dev-time-cli",
+        "websiteURL": "https://track-dev-time.dev/"
+      }
     },
     {
       "title": "Auto Dépannage Romanais",
-      "description": "Refonte complète du site vitrine de l’entreprise afin de mieux refléter son identité et sa charte graphique. Objectif : moderniser le design, améliorer l’expérience utilisateur et présenter les services de façon claire et attrayante.",
+      "description": "Refonte complète du site vitrine pour mieux refléter l’identité visuelle de l’entreprise et moderniser son design, tout en améliorant l’expérience utilisateur et la présentation des services.",
       "stacks": ["Next.js", "React"],
-      "imageURL": "/adr.png",
+      "imageURL": "/adr2.png",
       "slug": "adr",
-      "portfolio": true
+      "portfolio": true,
+      "content": {
+        "bannerURL": "/adr.png",
+
+        "context": "J’ai développé le site pour Auto Dépannage Romanais afin de proposer une version plus moderne que leur ancien site et mieux alignée avec l’identité visuelle de l’entreprise.",
+        "objective": "Le site met en avant les services proposés et améliore la navigation des utilisateurs tout en délivrant un design clair et professionnel, cohérent avec la charte graphique de l’entreprise.",
+        "github": "https://github.com/vbruchon/adr",
+        "websiteURL": "https://adr-psi.vercel.app/"
+      }
     },
     {
       "title": "Les Jardins de la Drôme",
-      "description": "Création du nouveau site web Les Jardins de la Drôme afin de répondre à leurs dernières exigences.",
+      "description": "Création du nouveau site web pour Les Jardins de la Drôme afin de répondre à leurs besoins actuels et refléter leurs activités.",
       "stacks": ["Php", "WordPress", "MySQL"],
       "imageURL": "/les_jardins_de_la_drome.png",
       "slug": "les-jardins-de-la-drome",
-      "portfolio": false
+      "portfolio": false,
+      "content": {
+        "context": "Le propriétaire de Les Jardins de la Drôme m’a contacté pour créer un site web reflétant mieux les activités actuelles de l’entreprise et son positionnement.",
+        "objective": "L’objectif était de moderniser la présentation des services et de leur donner un contrôle total sur leur contenu afin de gérer eux-mêmes les futures mises à jour. J’ai conçu et développé le site pour répondre entièrement à leurs attentes.",
+        "github": null,
+        "websiteURL": "https://www.les-jardins-de-la-drome.fr/"
+      }
     },
     {
       "title": "Cédille Formation",
-      "description": "Transformation d’une simple landing page en un site complet pour Cédille Formation, intégrant à la fois vitrine et catalogue de formations. Améliorations du serveur backend et personnalisation du tableau de bord pour répondre aux attentes du client.",
+      "description": "Transformation d’une landing page en un site complet intégrant à la fois la vitrine et le catalogue de formations. Amélioration du backend et personnalisation du tableau de bord pour répondre aux besoins du client.",
       "stacks": ["Php", "WordPress", "MySQL"],
       "imageURL": "/cedille_formation.png",
       "slug": "cedille-formation",
-      "portfolio": true
+      "portfolio": true,
+      "content": {
+        "context": "Cédille Formation utilisait un service tiers pour afficher son programme de formation, avec un contrôle limité sur le contenu, et avait une landing page redirigeant vers ce service.",
+        "objective": "J’ai développé un site WordPress réunissant ces deux fonctionnalités sur une seule plateforme. Pour répondre aux besoins du client et offrir un contrôle total sur le contenu des formations, j’ai créé des types de contenus personnalisés pour les formations, les formateurs et les programmes associés. J’ai ensuite réalisé le front-end et rédigé des articles optimisés pour le référencement.",
+        "github": "https://github.com/vbruchon/Cedille",
+        "websiteURL": "https://cedille-formation.fr/"
+      }
     },
     {
       "title": "Archimède",
-      "description": "Création d’une application web permettant de simplifier la saisie des événements. Gestion des droits utilisateurs, affichage en liste et conversion ICS pour une intégration fluide dans une vue calendrier.",
+      "description": "Création d’une application web pour centraliser et simplifier la gestion des événements des partenaires du groupe Archimède, avec calendrier, liste et filtrage des événements.",
       "stacks": ["Laravel", "MySQL"],
       "imageURL": "/archimede.png",
       "slug": "archimede",
-      "portfolio": false
+      "portfolio": false,
+      "content": {
+        "context": "Le groupe Archimède, composé d’entreprises et d’associations de la Drôme, souhaitait une application web pour centraliser et simplifier la gestion des événements de ses partenaires, auparavant suivis via un fichier Excel partagé.",
+        "objective": "J’ai développé une application permettant à chaque utilisateur du groupe d’avoir un compte lié à sa société ou association. Chaque utilisateur peut créer des événements et consulter ceux des autres, avec une vue calendrier et une vue liste incluant des options de tri et de filtrage pour faciliter la navigation et l’organisation.",
+        "github": "https://github.com/vbruchon/orgaEvent",
+        "websiteURL": null
+      }
     },
     {
       "title": "Mardinnov'",
-      "description": "Refonte complète du site Mardinnov’ à l’occasion des 10 ans de l’événement. Réorganisation des contenus pour plus de clarté et une gestion simplifiée, tout en modernisant l’identité visuelle du site.",
+      "description": "Refonte complète du site Mardinnov pour le 10ème anniversaire de l’événement. Réorganisation du contenu pour une meilleure clarté et une gestion simplifiée, tout en modernisant l’apparence globale.",
       "stacks": ["Php", "WordPress", "MySQL"],
       "imageURL": "/mardinnov.jpg",
       "slug": "mardinnov",
-      "portfolio": false
+      "portfolio": false,
+      "content": {
+        "context": "Le représentant de Mardinnov souhaitait un nouveau site pour le 10ème anniversaire de l’événement, aligné avec la nouvelle charte graphique et offrant une meilleure organisation du back-office, auparavant basé sur de simples articles.",
+        "objective": "J’ai réorganisé le tableau de bord en créant des contenus personnalisés pour séparer clairement les éditions, les startups présentant leurs projets lors de l’événement et les podcasts. J’ai également restructuré la base de données selon les besoins spécifiques du client et réalisé une refonte complète du site pour offrir une expérience utilisateur moderne et optimisée.",
+        "github": null,
+        "websiteURL": "https://mardinnov.com/"
+      }
     },
     {
       "title": "Oui'Dire Éditions",
-      "description": "Développement de plugins sur mesure pour alléger le site et l’adapter précisément aux besoins du gérant, offrant une solution plus performante et simple à administrer.",
+      "description": "Développement de plugins personnalisés pour optimiser les performances du site et adapter ses fonctionnalités aux besoins spécifiques du gestionnaire, pour une solution plus efficace et conviviale.",
       "stacks": ["Php", "WordPress", "MySQL"],
       "imageURL": "/oui-dire.jpg",
       "slug": "oui-dire-editions",
-      "portfolio": false
+      "portfolio": false,
+      "content": {
+        "context": "Oui'Dire Éditions souhaitait optimiser son site, identifier des améliorations pour ses plugins et centraliser un maximum de fonctionnalités directement sur la plateforme.",
+        "objective": "Pour répondre à ces besoins, j’ai développé un widget permettant de lire des extraits de livres audio et centralisé le téléchargement des livres via un plugin interne. Auparavant, les clients passaient par un service tiers payant ; désormais, après achat, chaque client reçoit un mail avec un code qu’il peut saisir sur une page dédiée pour télécharger ses produits, avec des restrictions côté administration et un suivi précis des statistiques. J’ai également créé plusieurs shortcodes personnalisés pour répondre aux besoins spécifiques du site et améliorer son fonctionnement global.",
+        "github": null,
+        "websiteURL": "https://oui-dire-editions.fr/"
+      }
     }
   ]
 }

@@ -1,7 +1,6 @@
 import { ProjectContent } from "@/components/section/projects";
 import { ProjectCard } from "@/components/section/projects/project-card";
 import { getDictionary } from "@/locales/dictionnaries";
-import React from "react";
 
 export default async function ProjectsPage({
   params,

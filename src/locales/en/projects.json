@@ -8,15 +8,29 @@
       "stacks": ["Next.js", "React", "Prisma", "Postgre", "Node.js"],
       "imageURL": "/track-dev-time.png",
       "slug": "track-dev-time",
-      "portfolio": true
+      "portfolio": true,
+      "content": {
+        "context": "Before Track Dev Time, tracking development sessions was tedious: developers had to remember to start, pause, or stop the timer, and the data was often incomplete.",
+        "objective": "I created Track Dev Time, a tool that automatically tracks sessions and breaks directly from the terminal, stores data locally, and displays it in a modern dashboard. The tool allows developers to visualize their productivity, track goals, and analyze statistics easily, while keeping full control over their data.",
+        "github": "https://github.com/vbruchon/track-dev-time-saas",
+        "github2": "https://github.com/vbruchon/track-dev-time-cli",
+        "websiteURL": "https://track-dev-time.dev/"
+      }
     },
     {
       "title": "Auto Depannage Romanais",
       "description": "Complete redesign of the company’s showcase website to better reflect its brand identity and graphic charter. Goal: modernize the design, improve user experience, and present services clearly and attractively.",
       "stacks": ["Next.js", "React"],
-      "imageURL": "/adr.png",
+      "imageURL": "/adr2.png",
       "slug": "adr",
-      "portfolio": true
+      "portfolio": true,
+      "content": {
+        "bannerURL": "/adr.png",
+        "context": "I developed the website for Auto Dépannage Romanais to provide a more modern version compared to their previous site and better aligned with the company’s brand identity.",
+        "objective": "The site highlights the services offered and improves user navigation while delivering a clear and professional design, consistent with the company’s visual identity.",
+        "github": "https://github.com/vbruchon/adr",
+        "websiteURL": "https://adr-psi.vercel.app/"
+      }
     },
     {
       "title": "Les jardins de la Drôme",
@@ -24,7 +38,13 @@
       "stacks": ["Php", "WordPress", "MySQL"],
       "imageURL": "/les_jardins_de_la_drome.png",
       "slug": "les-jardins-de-la-drome",
-      "portfolio": false
+      "portfolio": false,
+      "content": {
+        "context": "The owner of Les Jardins de la Drôme contacted me to create a new website that better reflects the company’s current activities and positioning.",
+        "objective": "The goal was to modernize the presentation of services and give them full control over their content to manage future updates themselves. I designed and developed the site to fully meet their needs and expectations.",
+        "github": null,
+        "websiteURL": "https://www.les-jardins-de-la-drome.fr/"
+      }
     },
     {
       "title": "Cedille Formation",
@@ -32,7 +52,13 @@
       "stacks": ["Php", "WordPress", "MySQL"],
       "imageURL": "/cedille_formation.png",
       "slug": "cedille-formation",
-      "portfolio": true
+      "portfolio": true,
+      "content": {
+        "context": "Cedille Formation was using a third-party service to display its training program, with limited control over the content, and had a landing page redirecting to this service.",
+        "objective": "I developed a WordPress site to combine these two functionalities into a single platform. To meet the client’s needs and provide full control over the training content, I created custom content types for trainings, trainers, and related programs. I then developed the front-end of the site and wrote SEO-optimized articles to improve online visibility.",
+        "github": "https://github.com/vbruchon/Cedille",
+        "websiteURL": "https://cedille-formation.fr/"
+      }
     },
     {
       "title": "Archimède",
@@ -40,7 +66,13 @@
       "stacks": ["Laravel", "MySQL"],
       "imageURL": "/archimede.png",
       "slug": "archimede",
-      "portfolio": false
+      "portfolio": false,
+      "content": {
+        "context": "The Archimède group, composed of companies and associations in the Drôme region, wanted a web application to centralize and simplify the management of their partners' events, which were previously tracked using a shared Excel file.",
+        "objective": "I developed an application that allows each group user to have an account linked to their company or association. Each user can create events and view those of others, with a calendar view and a list view featuring sorting and filtering options to simplify navigation and organization.",
+        "github": "https://github.com/vbruchon/orgaEvent",
+        "websiteURL": null
+      }
     },
     {
       "title": "Mardinnov'",
@@ -48,7 +80,13 @@
       "stacks": ["Php", "WordPress", "MySQL"],
       "imageURL": "/mardinnov.jpg",
       "slug": "mardinnov",
-      "portfolio": false
+      "portfolio": false,
+      "content": {
+        "context": "The representative of Mardinnov wanted to create a new website to celebrate the 10th anniversary of the event, aligned with the new graphic charter and providing a better back-office organization, which was previously based on simple articles.",
+        "objective": "I reorganized the dashboard by creating custom content types to clearly separate the editions, the startups presenting their projects during the event, and the podcasts. I also restructured the database to meet the client’s specific needs, and carried out a complete redesign of the website to deliver a modern and optimized user experience.",
+        "github": null,
+        "websiteURL": "https://mardinnov.com/"
+      }
     },
     {
       "title": "Oui'Dire Éditions",
@@ -56,7 +94,13 @@
       "stacks": ["Php", "WordPress", "MySQL"],
       "imageURL": "/oui-dire.jpg",
       "slug": "oui-dire-editions",
-      "portfolio": false
+      "portfolio": false,
+      "content": {
+        "context": "Oui'Dire Éditions wanted to optimize their website, identify improvements for their plugins, and centralize as many features as possible on the platform.",
+        "objective": "To meet these needs, I developed a widget to play excerpts of audiobooks and centralized the download of audiobooks on the website via an internal plugin; previously, customers relied on a paid third-party service. Now, after purchase, each customer receives an email with a code that can be entered on a dedicated page to download the products, with administrative restrictions and precise download statistics. I also created several custom shortcodes to address specific site requirements and improve overall functionality.",
+        "github": null,
+        "websiteURL": "https://oui-dire-editions.fr/"
+      }
     }
   ]
 }

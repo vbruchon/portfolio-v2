@@ -9,6 +9,7 @@ export type Testimonial = {
   enterprise: string;
   enterpriseLink: string;
   content: string;
+  projectSlugs?: string[];
 };
 
 type TestimonialsSectionProps = {

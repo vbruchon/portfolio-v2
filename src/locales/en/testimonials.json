@@ -8,7 +8,8 @@
       "role": "Project Manager",
       "enterprise": "Le Moulin Digital",
       "enterpriseLink": "https://lemoulindigital.fr",
-      "content": "Vivian understood our needs and developed tailored solutions. Autonomous and responsive, he solved problems by seeking necessary information or referring to his peers. His ability to adapt to project changes and train users was appreciated. Overall, he exceeded our expectations and integrated fully into our team."
+      "content": "Vivian understood our needs and developed tailored solutions. Autonomous and responsive, he solved problems by seeking necessary information or referring to his peers. His ability to adapt to project changes and train users was appreciated. Overall, he exceeded our expectations and integrated fully into our team.",
+      "projectSlugs": ["mardinnov", "cedille-formation", "archimede"]
     },
     {
       "img": "https://lemoulindigital.fr/wp-content/uploads/2022/07/IMG_2879-scaled.jpg",
@@ -17,7 +18,8 @@
       "role": "Mardinnov' Representative",
       "enterprise": "Le Moulin Digital",
       "enterpriseLink": "https://lemoulindigital.fr",
-      "content": "Vivian worked on the redesign of the www.mardinnov.com website in 2022 on Wordpress. Based on the newly created graphic charter, he completely created the new website. Very attentive to needs and proactive, he was very responsive and adhered to the schedule of the specifications. I recommend him for his professionalism!"
+      "content": "Vivian worked on the redesign of the www.mardinnov.com website in 2022 on Wordpress. Based on the newly created graphic charter, he completely created the new website. Very attentive to needs and proactive, he was very responsive and adhered to the schedule of the specifications. I recommend him for his professionalism!",
+      "projectSlugs": ["mardinnov"]
     },
     {
       "img": "https://lemoulindigital.fr/wp-content/uploads/2022/07/IMG_2875-scaled.jpg",
@@ -26,14 +28,16 @@
       "role": "Cédille Formation Manager",
       "enterprise": "Cédille Formation",
       "enterpriseLink": "https://cedille-formation.fr/",
-      "content": "After the successful creation of the Cédille Formation website, I am pleased with our collaboration with Vivian. His attentive listening and pedagogy greatly facilitated the understanding of each stage of the process, particularly for a novice like myself. Vivian effectively addressed our expectations and tailored the site to meet our requirements. His professionalism and expertise were instrumental in bringing this project to fruition. I highly recommend Vivian's services."
+      "content": "After the successful creation of the Cédille Formation website, I am pleased with our collaboration with Vivian. His attentive listening and pedagogy greatly facilitated the understanding of each stage of the process, particularly for a novice like myself. Vivian effectively addressed our expectations and tailored the site to meet our requirements. His professionalism and expertise were instrumental in bringing this project to fruition. I highly recommend Vivian's services.",
+      "projectSlugs": ["cedille-formation"]
     },
     {
       "img": "/les-jardins-de-la-drome.png",
       "name": "David Escandell",
       "enterprise": "Les Jardins de la Drôme",
       "enterpriseLink": "https://www.les-jardins-de-la-drome.fr",
-      "content": "Vivian understood the project, understood our expectations and requirements. We are very satisfied with the work done, with the website SEO. He contributed to the success of this project. I highly recommend his services for any company looking to develop a quality online presence. A big thank you to Vivian."
+      "content": "Vivian understood the project, understood our expectations and requirements. We are very satisfied with the work done, with the website SEO. He contributed to the success of this project. I highly recommend his services for any company looking to develop a quality online presence. A big thank you to Vivian.",
+      "projectSlugs": ["les-jardins-de-la-drome"]
     }
   ]
 }
