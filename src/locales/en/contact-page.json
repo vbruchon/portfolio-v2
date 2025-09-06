@@ -1,0 +1,27 @@
+{
+  "title": "Contact me",
+  "introText": "Need to get in touch? Fill out the form below and I’ll get back to you as soon as possible!",
+  "form": {
+    "labels": {
+      "name": "Your name",
+      "email": "Your email",
+      "subject": "Subject (optional)",
+      "message": "Your message"
+    },
+    "placeholders": {
+      "name": "Vivian B",
+      "email": "example@email.fr",
+      "subject": "Need developer for create my website",
+      "message": "Hello, I need a developer for ..."
+    },
+    "button": {
+      "submit": "Submit",
+      "sending": "Sending..."
+    }
+  },
+  "toast": {
+    "success": "✅ Your message has been sent successfully!",
+    "error": "❌ Something went wrong. Please try again later."
+  },
+  "replyNote": "I usually reply within 48 hours. Don’t hesitate!"
+}

@@ -6,7 +6,7 @@ import { MdEmail } from "react-icons/md";
 
 const links = [
   {
-    href: "mailto:contact@vivianb.dev",
+    href: "/contact",
     icon: <MdEmail className="hover:text-primary" />,
     external: false,
   },

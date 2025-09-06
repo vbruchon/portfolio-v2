@@ -4,6 +4,7 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/components/theme/theme-provider";
 import { ReactNode } from "react";
+import { Toaster } from "@/components/ui/sonner";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -51,6 +52,7 @@ export default async function RootLayout({
             <span className="hidden xl:block 2xl:hidden">xl</span>
             <span className="hidden 2xl:block">2xl</span>
           </div>
+          <Toaster />
         </ThemeProvider>
       </body>
     </html>

@@ -15,11 +15,9 @@ export const Header = async ({ lang }: { lang: string }) => {
           <Image src={"/logo-2.png"} alt="vivian logo" width={40} height={40} />
         </div>
 
-        <div className="flex-1 flex justify-center">
-          <nav className="hidden md:flex">
-            <NavMenu items={dict.nav} />
-          </nav>
-        </div>
+        <nav className="hidden md:flex flex-1 justify-center">
+          <NavMenu items={dict.nav} />
+        </nav>
 
         <div className="hidden md:flex flex-none items-center gap-4 ml-8">
           <ToggleTheme />

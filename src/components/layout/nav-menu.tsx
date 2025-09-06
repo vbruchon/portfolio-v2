@@ -14,6 +14,7 @@ export const NavMenu = ({ items = [] }: NavMenuProps) => {
     "/": ["Home", "Accueil"],
     "/projects": ["Projects", "Projets"],
     "/articles": ["Articles"],
+    "/contact": ["Contact"],
   };
 
   const navItems = items.map((label) => {
