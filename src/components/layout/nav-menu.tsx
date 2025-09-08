@@ -11,9 +11,9 @@ export const NavMenu = ({ items = [] }: NavMenuProps) => {
   const pathname = usePathname();
 
   const routeMap = {
-    "/": ["Home", "Accueil"],
+    "/": ["Portfolio"],
     "/projects": ["Projects", "Projets"],
-    "/articles": ["Articles"],
+    // "/blog": ["Blog"],
     "/contact": ["Contact"],
   };
 
