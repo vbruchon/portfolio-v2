@@ -12,7 +12,8 @@ export const sendContactEmail = async (values: ContactFormSchemaType) => {
 
   const result = await resend.emails.send({
     from: "Contact Form <onboarding@resend.dev>",
-    to: "vivian.bruchon+portfolio@gmail.com",
+    to: "contact@vivianb.dev",
+    replyTo: parsed.data.email,
     subject: parsed.data.subject || "New contact form submission",
     text: `From: ${parsed.data.name} (${parsed.data.email})\n\n${parsed.data.message}`,
   });

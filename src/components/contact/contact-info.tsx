@@ -14,11 +14,11 @@ export const ContactInfo = ({ replyNote }: { replyNote: string }) => {
         <p>
           Email:{" "}
           <a
-            href="mailto:vivian.bruchon@gmail.com"
+            href="mailto:contact@vivianb.dev"
             className="underline"
             aria-label="Email Vivian"
           >
-            vivian.bruchon@gmail.com
+            contact@vivianb.dev
           </a>
         </p>
         <span> | </span>
