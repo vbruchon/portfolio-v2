@@ -7,6 +7,10 @@ import {
   SiFigma,
   SiGithub,
   SiPrisma,
+  SiPhp,
+  SiLaravel,
+  SiMysql,
+  SiPostgresql,
 } from "react-icons/si";
 import { SkillsGrid } from "./skills/skills-grid";
 import { SectionWrapper } from "./section-wrapper";
@@ -66,9 +70,24 @@ const devSkills = [
     hoverClass: "group-hover:text-primary",
   },
   {
-    icon: <SiPrisma />,
-    name: "Prisma",
-    hoverClass: "group-hover:text-purple-600",
+    icon: <SiPostgresql />,
+    name: "PostgreSQL",
+    hoverClass: "group-hover:text-indigo-600",
+  },
+  {
+    icon: <SiPhp />,
+    name: "PHP",
+    hoverClass: "group-hover:text-violet-500",
+  },
+  {
+    icon: <SiLaravel />,
+    name: "Laravel",
+    hoverClass: "group-hover:text-red-500",
+  },
+  {
+    icon: <SiMysql />,
+    name: "MySQL",
+    hoverClass: "group-hover:text-blue-500",
   },
 ];
 

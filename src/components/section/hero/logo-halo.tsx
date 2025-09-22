@@ -7,6 +7,7 @@ import { ReactLogo } from "@/components/logo/react-logo";
 import { motion } from "framer-motion";
 import React from "react";
 import { Bubble } from "./bubble";
+import { SiLaravel, SiPhp, SiPostgresql } from "react-icons/si";
 
 const containerVariants = {
   hidden: {},
@@ -40,8 +41,8 @@ export const LogoHalo = () => {
         <NextLogo className="w-full h-full p-1 text-background bg-muted-foreground scale-115" />
       </Bubble>
 
-      <Bubble className="top-[9.5rem] left-[97%] md:top-[11rem] xl:size-14 xl:top-[14.5rem] 2xl:top-[15rem]">
-        <NodeLogo className="w-full h-full p-1.5 text-foreground dark:text-muted-foreground bg-background scale-110" />
+      <Bubble className="top-[9.5rem] left-[98%] md:top-[11rem] xl:size-14 xl:top-[14.5rem] 2xl:top-[15rem]">
+        <SiLaravel className="w-full h-full p-2 text-foreground dark:text-muted-foreground bg-background" />
       </Bubble>
 
       <Bubble className="top-[13.5rem] left-[75%] md:top-[15.5rem] xl:size-14 xl:top-[20rem] 2xl:top-[21rem]">
