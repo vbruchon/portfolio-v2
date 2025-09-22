@@ -23,7 +23,7 @@
       "stacks": ["Next.js", "React"],
       "imageURL": "/projects/adr2.png",
       "slug": "adr",
-      "portfolio": true,
+      "portfolio": false,
       "content": {
         "bannerURL": "/adr.png",
         "context": "I developed the website for Auto Dépannage Romanais to provide a more modern version compared to their previous site and better aligned with the company’s brand identity.",
@@ -47,6 +47,20 @@
       }
     },
     {
+      "title": "Archimède",
+      "description": "Creation of a web application designed to simplify event entry. Features include user rights management, event list display, and ICS conversion for seamless integration into calendar views.",
+      "stacks": ["Laravel", "MySQL"],
+      "imageURL": "/projects/archimede.png",
+      "slug": "archimede",
+      "portfolio": true,
+      "content": {
+        "context": "The Archimède group, composed of companies and associations in the Drôme region, wanted a web application to centralize and simplify the management of their partners' events, which were previously tracked using a shared Excel file.",
+        "objective": "I developed an application that allows each group user to have an account linked to their company or association. Each user can create events and view those of others, with a calendar view and a list view featuring sorting and filtering options to simplify navigation and organization.",
+        "github": "https://github.com/vbruchon/orgaEvent",
+        "websiteURL": null
+      }
+    },
+    {
       "title": "Cedille Formation",
       "description": "Transformation of a landing page into a comprehensive website for Cédille Formation, integrating both showcase and training catalog. Backend server enhancements and dashboard customization to meet client expectations.",
       "stacks": ["Php", "WordPress", "MySQL"],
@@ -60,20 +74,7 @@
         "websiteURL": "https://cedille-formation.fr/"
       }
     },
-    {
-      "title": "Archimède",
-      "description": "Creation of a web application designed to simplify event entry. Features include user rights management, event list display, and ICS conversion for seamless integration into calendar views.",
-      "stacks": ["Laravel", "MySQL"],
-      "imageURL": "/projects/archimede.png",
-      "slug": "archimede",
-      "portfolio": false,
-      "content": {
-        "context": "The Archimède group, composed of companies and associations in the Drôme region, wanted a web application to centralize and simplify the management of their partners' events, which were previously tracked using a shared Excel file.",
-        "objective": "I developed an application that allows each group user to have an account linked to their company or association. Each user can create events and view those of others, with a calendar view and a list view featuring sorting and filtering options to simplify navigation and organization.",
-        "github": "https://github.com/vbruchon/orgaEvent",
-        "websiteURL": null
-      }
-    },
+
     {
       "title": "Mardinnov'",
       "description": "Complete redesign of the Mardinnov website for its 10th anniversary. Content was reorganized to improve clarity and usability, ensuring easier management for the site administrator while modernizing its overall look.",

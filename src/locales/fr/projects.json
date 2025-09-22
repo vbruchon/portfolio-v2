@@ -23,7 +23,7 @@
       "stacks": ["Next.js", "React"],
       "imageURL": "/projects/adr2.png",
       "slug": "adr",
-      "portfolio": true,
+      "portfolio": false,
       "content": {
         "bannerURL": "/adr.png",
 
@@ -31,20 +31,6 @@
         "objective": "Le site met en avant les services proposés et améliore la navigation des utilisateurs tout en délivrant un design clair et professionnel, cohérent avec la charte graphique de l’entreprise.",
         "github": "https://github.com/vbruchon/adr",
         "websiteURL": "https://adr-psi.vercel.app/"
-      }
-    },
-    {
-      "title": "Les Jardins de la Drôme",
-      "description": "Création du nouveau site web pour Les Jardins de la Drôme afin de répondre à leurs besoins actuels et refléter leurs activités.",
-      "stacks": ["Php", "WordPress", "MySQL"],
-      "imageURL": "/projects/les_jardins_de_la_drome.png",
-      "slug": "les-jardins-de-la-drome",
-      "portfolio": false,
-      "content": {
-        "context": "Le propriétaire de Les Jardins de la Drôme m’a contacté pour créer un site web reflétant mieux les activités actuelles de l’entreprise et son positionnement.",
-        "objective": "L’objectif était de moderniser la présentation des services et de leur donner un contrôle total sur leur contenu afin de gérer eux-mêmes les futures mises à jour. J’ai conçu et développé le site pour répondre entièrement à leurs attentes.",
-        "github": null,
-        "websiteURL": "https://www.les-jardins-de-la-drome.fr/"
       }
     },
     {
@@ -62,12 +48,26 @@
       }
     },
     {
+      "title": "Les Jardins de la Drôme",
+      "description": "Création du nouveau site web pour Les Jardins de la Drôme afin de répondre à leurs besoins actuels et refléter leurs activités.",
+      "stacks": ["Php", "WordPress", "MySQL"],
+      "imageURL": "/projects/les_jardins_de_la_drome.png",
+      "slug": "les-jardins-de-la-drome",
+      "portfolio": false,
+      "content": {
+        "context": "Le propriétaire de Les Jardins de la Drôme m’a contacté pour créer un site web reflétant mieux les activités actuelles de l’entreprise et son positionnement.",
+        "objective": "L’objectif était de moderniser la présentation des services et de leur donner un contrôle total sur leur contenu afin de gérer eux-mêmes les futures mises à jour. J’ai conçu et développé le site pour répondre entièrement à leurs attentes.",
+        "github": null,
+        "websiteURL": "https://www.les-jardins-de-la-drome.fr/"
+      }
+    },
+    {
       "title": "Archimède",
       "description": "Création d’une application web pour centraliser et simplifier la gestion des événements des partenaires du groupe Archimède, avec calendrier, liste et filtrage des événements.",
       "stacks": ["Laravel", "MySQL"],
       "imageURL": "/projects/archimede.png",
       "slug": "archimede",
-      "portfolio": false,
+      "portfolio": true,
       "content": {
         "context": "Le groupe Archimède, composé d’entreprises et d’associations de la Drôme, souhaitait une application web pour centraliser et simplifier la gestion des événements de ses partenaires, auparavant suivis via un fichier Excel partagé.",
         "objective": "J’ai développé une application permettant à chaque utilisateur du groupe d’avoir un compte lié à sa société ou association. Chaque utilisateur peut créer des événements et consulter ceux des autres, avec une vue calendrier et une vue liste incluant des options de tri et de filtrage pour faciliter la navigation et l’organisation.",
